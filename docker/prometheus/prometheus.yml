@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: "backend-dev-template-service"
+    metrics_path: "/actuator/prometheus"
+    scheme: "http"
+    static_configs:
+      - targets: ["host.docker.internal:8080"]

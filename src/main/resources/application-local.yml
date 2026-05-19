@@ -1,0 +1,4 @@
+# Profile: local (app on host, infra in docker-compose)
+spring:
+  session:
+    store-type: jdbc
