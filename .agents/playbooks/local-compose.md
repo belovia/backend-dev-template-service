@@ -56,7 +56,7 @@ export OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4318/v1/traces
 Запуск:
 
 ```bash
-mvn spring-boot:run
+mvn -pl service spring-boot:run
 ```
 
 ### Остановить инфраструктуру
